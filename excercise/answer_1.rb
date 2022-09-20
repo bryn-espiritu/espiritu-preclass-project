@@ -1,9 +1,7 @@
-def is_adult?(age)
-  if age >= 18
-    return 'adult'
-  else
-    return 'not adult'
-  end
-end
 
-p is_adult?(21)
+  def calculate_bmi(weight, height)
+    bmi = weight / height **2
+    return bmi
+  end
+
+  p calculate_bmi( 65, 1.75)
